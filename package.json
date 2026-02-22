@@ -1,0 +1,31 @@
+{
+  "name": "site-agent",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">   <h1>🕷️ Site Agent</h1>   <p>     <strong>The Autonomous, Unstoppable Browser Automation Engine</strong>   </p>   <p>     <a href=\"https://playwright.dev/\"><img src=\"https://img.shields.io/badge/Playwright-Automation-2EAD33?style=for-the-badge&logo=playwright\" alt=\"Playwright\" /></a>     <a href=\"https://nodejs.org/\"><img src=\"https://img.shields.io/badge/Node.js-Backend-339933?style=for-the-badge&logo=node.js\" alt=\"Node.js\" /></a>     <a href=\"https://typescriptlang.org/\"><img src=\"https://img.shields.io/badge/TypeScript-Strict-3178C6?style=for-the-badge&logo=typescript\" alt=\"TypeScript\" /></a>     <a href=\"#\"><img src=\"https://img.shields.io/badge/Status-Active-success?style=for-the-badge\" alt=\"Status\" /></a>   </p> </div>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "playwright-core": "^1.58.2",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.3.0",
+    "nodemon": "^3.1.13",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
